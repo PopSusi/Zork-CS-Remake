@@ -1,0 +1,8 @@
+C:\Dev\Zork\Zork\bin\Debug\Zork.exe.config
+C:\Dev\Zork\Zork\bin\Debug\Zork.exe
+C:\Dev\Zork\Zork\bin\Debug\Zork.pdb
+C:\Dev\Zork\Zork\obj\Debug\Zork.csproj.AssemblyReference.cache
+C:\Dev\Zork\Zork\obj\Debug\Zork.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Zork\Zork\obj\Debug\Zork.csproj.CoreCompileInputs.cache
+C:\Dev\Zork\Zork\obj\Debug\Zork.exe
+C:\Dev\Zork\Zork\obj\Debug\Zork.pdb
