@@ -46,6 +46,8 @@ namespace Zork
             thePlayer = player;
             theWorld = world;
         }
+        [JsonIgnore]
+        private int five = 5;
 
         public static void Start(string gameFilename)
         {
@@ -100,7 +102,14 @@ namespace Zork
         public static Game Load(string filename)
         {
             Game game = JsonConvert.DeserializeObject<Game>(File.ReadAllText(filename));
-            game.thePlayer = game.theWorld.SpawnPlayer();
+            if (!(game == null))
+            {
+                game.thePlayer = game.theWorld.SpawnPlayer();
+            }
+            else
+            {
+                Console.WriteLine("Oh No");
+            }
 
             return game;
         }

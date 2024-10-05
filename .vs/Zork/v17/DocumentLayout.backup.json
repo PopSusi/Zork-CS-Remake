@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Dev\\Zork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|c:\\dev\\zork\\zork\\roomsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|solutionrelative:zork\\roomsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|c:\\dev\\zork\\zork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|solutionrelative:zork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|c:\\dev\\zork\\zork\\roomsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|solutionrelative:zork\\roomsdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57E67CDC-0D0E-4C57-B118-7B7155C14B6A}|Zork\\Zork.csproj|c:\\dev\\zork\\zork\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\Zork\\Zork\\Program.cs",
+              "RelativeDocumentMoniker": "Zork\\Program.cs",
+              "ToolTip": "C:\\Dev\\Zork\\Zork\\Program.cs",
+              "RelativeToolTip": "Zork\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwG4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:46:12.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -42,8 +55,7 @@
               "RelativeToolTip": "Zork\\Commands.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAQwFgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T21:15:53.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T21:15:53.392Z"
             },
             {
               "$type": "Document",
@@ -53,7 +65,7 @@
               "RelativeDocumentMoniker": "Zork\\Room.cs",
               "ToolTip": "C:\\Dev\\Zork\\Zork\\Room.cs",
               "RelativeToolTip": "Zork\\Room.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwEEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T20:46:12.909Z",
               "EditorCaption": ""
@@ -61,25 +73,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\Zork\\Zork\\Program.cs",
-              "RelativeDocumentMoniker": "Zork\\Program.cs",
-              "ToolTip": "C:\\Dev\\Zork\\Zork\\Program.cs",
-              "RelativeToolTip": "Zork\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAEBFwGYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T20:46:12.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "RoomsData.json",
               "DocumentMoniker": "C:\\Dev\\Zork\\Zork\\RoomsData.json",
               "RelativeDocumentMoniker": "Zork\\RoomsData.json",
               "ToolTip": "C:\\Dev\\Zork\\Zork\\RoomsData.json",
               "RelativeToolTip": "Zork\\RoomsData.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-04T22:26:41.827Z",
               "EditorCaption": ""
