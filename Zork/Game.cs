@@ -5,6 +5,7 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System;
+using System.Linq;
 using Zork;
 
 namespace Zork
@@ -42,7 +43,7 @@ namespace Zork
             while (Instance == null || Instance.mIsRestarting)
             {
                 Instance = Load(gameFilename);
-                Instance.LoadComments();
+                Instance.LoadCommands();
                 Instance.LoadScripts();
                 Instance.DisplayWelcomeMessage();
                 Instance.Run();
@@ -97,7 +98,7 @@ namespace Zork
 
             return game;
         }
-        private void LoadComments()
+        private void LoadCommands()
         {
             var commandMethods = (from type in Assembly.GetExecutingAssembly().GetTypes()
                                   from method in type.GetMethods()
