@@ -103,7 +103,7 @@ namespace Zork
 
 		public Player(World world, string startingLocation)
 		{
-			World myWorld = world;
+			World = world;
 			LocationName = startingLocation;
 		}
 

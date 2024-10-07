@@ -13,10 +13,10 @@ namespace Zork
     {
         static void Main(string[] args)
         {
-            const string defaultGameFilename = "RoomsData.Json";
+            const string defaultGameFilename = "RoomsData.json";
             string gameFileName = (args.Length > 0 ? args[(int)CommandLineArguments.GameFilename] : defaultGameFilename);
             
-            Game.Start(gameFileName);
+            Game.Start("RoomsData.json");
             Console.WriteLine("Thank you for playing!");
         }
 
